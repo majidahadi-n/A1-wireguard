@@ -5,7 +5,7 @@ sudo ip link set gre1 down && sudo ip link delete gre1
 ```
 
 ```bash
-sudo ip tunnel add gre1 mode gre remote  *<NEW_TUNNEL_IP>* local **<SERVER_IP>** ttl 255
+sudo ip tunnel add gre1 mode gre remote  **NEW_TUNNEL_IP** local **<SERVER_IP>** ttl 255
 ```
 
 
